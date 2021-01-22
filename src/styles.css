@@ -1,0 +1,150 @@
+.App {
+  width: 800px;
+  margin: auto;
+  padding-bottom: 100px;
+  background-color: #f6fff3;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 lightgray;
+}
+
+/*header*/
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.headerBlock {
+  margin: 20px;
+}
+
+/*addConsumption*/
+
+.addConsumption {
+  display: flex;
+  justify-content: center;
+}
+
+.sum {
+  width: 60px;
+}
+
+.comment {
+}
+
+.sumInput {
+  outline: none;
+  border: 1px solid green;
+  border-radius: 3px;
+  width: 60px;
+  height: 30px;
+  font-size: 1.2em;
+}
+
+.commentInput {
+  margin-left: 30px;
+  outline: none;
+  border: 1px solid green;
+  border-radius: 3px;
+  height: 30px;
+  font-size: 1.2em;
+}
+
+/*categories*/
+
+.categories {
+  width: 650px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.category,
+.addCategory {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  box-shadow: 0 0 10px 0 lightgray;
+  border-radius: 10px;
+  background-color: #fff;
+  padding-top: 25px;
+  margin: 25px 15px 0 15px;
+  cursor: pointer;
+}
+
+.icon .material-icons {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+/*AddCategory*/
+
+.iconPlus .material-icons {
+  margin: auto;
+  font-size: 2.5em;
+}
+
+/*History*/
+
+.text {
+  text-align: center;
+  font-size: 2em;
+}
+
+/*HistoryItem*/
+
+.historyItem {
+  width: 400px;
+  height: 80px;
+  display: flex;
+  margin: auto;
+  border-radius: 5px;
+  border: 2px solid green;
+  background-color: white;
+}
+
+.historyCategory {
+  width: 130px;
+  padding: 20px;
+}
+
+.historySum {
+  width: 130px;
+  padding: 20px;
+  border-left: 2px solid green;
+  border-right: 2px solid green;
+}
+
+.historyComment {
+  width: 100%;
+  padding: 20px;
+}
+
+/*ModalWin*/
+
+.window {
+  width: 250px;
+  height: 145px;
+  margin: auto;
+  border-radius: 5px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 0 10px 0 lightgray;
+}
+
+.windowBlock {
+  margin-top: 30px;
+}
+
+.window input {
+  margin: 20px 0 0 0;
+}
+
+.bt {
+  margin: 8px 0 0 0;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  background-color: #7ccbff;
+}
